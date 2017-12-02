@@ -1,0 +1,17 @@
+************* Module affinityJenkins
+__init__.py:1: [C0103(invalid-name), ] Invalid module name "affinityJenkins"
+************* Module affinityJenkins.compute_highest_affinity
+compute_highest_affinity.py:30: [C0330(bad-continuation), ] Wrong hanging indentation (add 4 spaces).
+                        key, another_key)
+                        ^   |
+compute_highest_affinity.py:5: [C0111(missing-docstring), highest_affinity] Missing function docstring
+compute_highest_affinity.py:7: [C0103(invalid-name), highest_affinity] Invalid variable name "n"
+************* Module affinityJenkins.tests.controlled_tests
+tests/controlled_tests.py:11: [C0304(missing-final-newline), ] Final newline missing
+tests/controlled_tests.py:1: [C0111(missing-docstring), ] Missing module docstring
+tests/controlled_tests.py:4: [C0111(missing-docstring), ControlledTests] Missing class docstring
+tests/controlled_tests.py:5: [C0111(missing-docstring), ControlledTests.test1] Missing method docstring
+
+-----------------------------------
+Your code has been rated at 7.58/10
+
